@@ -13,7 +13,14 @@ To setup this testnet, following tools has been used. Stable release of the tool
 To run the testnet use following commands in two separate terminal windows. Following Flags have been used.
 
 ```
-s
+--datadir => Data directory for the chaindata and keystore
+--unlock =>  Account to unclock (can be comma separated list of account)
+--mine => Enable mining
+--rpc => Starts rpc interface and this is required to connect with the client (MyCrypto or Metamask)
+--allow-insecure-unlock => Allow insecure account unlocking when account related RPCs are exposed by HTTP
+--port => Network listening port (used 30304)
+--bootnodes => enode URL for P2P discovery (Node2 to connect with Node1)
+--ipcdisable => Disable the IPC-RPC server
 ```
 
     > ./geth --datadir node1 --unlock "0x03ED163520395A3AcbD503cBd932aF5BF6Da7a71" --mine --rpc --allow-insecure-unlock
