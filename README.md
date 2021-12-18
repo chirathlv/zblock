@@ -6,6 +6,6 @@ To setup this testnet, following tools has been used
 
     > Puppeth to generate gensis block
 
-    > Geth & Tools 1.9.7 to create keys, initialize nodes and connect the nodes together ([stable release](https://geth.ethereum.org/downloads/)
+    > Geth & Tools 1.9.7 to create keys, initialize nodes and connect the nodes together (<a href="http://stackoverflow.com" target="_blank">Go</a>)
 
     > The Clique Proof of Authority Algorithm
