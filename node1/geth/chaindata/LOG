@@ -16,3 +16,6 @@
 22:48:03.777305 version@stat F·[1] S·51KiB[51KiB] Sc·[0.25]
 22:48:03.783289 db@janitor F·3 G·0
 22:48:03.783289 db@open done T·19.9452ms
+=============== Dec 18, 2021 (AEDT) ===============
+19:43:35.014087 db@close closing
+19:43:35.016082 db@close done T·1.9949ms
