@@ -10,7 +10,11 @@ To setup this testnet, following tools has been used. Stable release of the tool
 
     3. The Clique Proof of Authority Algorithm
 
-To run the testnet use following commands in two separate terminal windows
+To run the testnet use following commands in two separate terminal windows. Following Flags have been used.
+
+```
+s
+```
 
     > ./geth --datadir node1 --unlock "0x03ED163520395A3AcbD503cBd932aF5BF6Da7a71" --mine --rpc --allow-insecure-unlock
 
