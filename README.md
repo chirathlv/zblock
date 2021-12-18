@@ -31,3 +31,9 @@ To test a transaction between node can be done as follows
 <p align="center">
   <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_02.PNG">
 </p>
+
+Transaction Status as follows
+
+<p align="center">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_02.PNG">
+</p>
