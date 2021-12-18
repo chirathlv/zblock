@@ -2,7 +2,7 @@
 
 zblock is a private testnet developed for ZBank to explore potentials of blockchain technology. This tesnet allow for offline development while no real money involved which enabling the freedom to experiment.
 
-# Setup the zblock
+## Setup the zblock
 
 To setup this testnet, following tools has been used. Stable release of the tools can be downloaded [here](https://geth.ethereum.org/downloads/) or else this repo has everything setup so you don't need to download and setup.
 
