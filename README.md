@@ -2,6 +2,8 @@
 
 zblock is a private testnet developed for ZBank to explore potentials of blockchain technology. This tesnet allow for offline development while no real money involved which enabling the freedom to experiment.
 
+# Setup the zblock
+
 To setup this testnet, following tools has been used. Stable release of the tools can be downloaded [here](https://geth.ethereum.org/downloads/) or else this repo has everything setup so you don't need to download and setup.
 
     1. Puppeth to generate gensis block
@@ -9,6 +11,8 @@ To setup this testnet, following tools has been used. Stable release of the tool
     2. Geth & Tools 1.9.7 to create keys, initialize nodes and connect the nodes together
 
     3. The Clique Proof of Authority Algorithm
+
+## Run the zblock
 
 To run the testnet use following commands in two separate terminal windows.
 
@@ -29,11 +33,15 @@ Explanation of the flags being used in previous commands
 --ipcdisable ==> Disable the IPC-RPC server
 ```
 
+## MyCrypto Setup
+
 To connect MyCrypto to the testnet can be done using below configuration. First open the MyCrypto and select `Change Network` and then select `Add Custom Node`. Then fill below configurations to finish the setup.
 
 <p align="center">
   <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/MyCryptoConfig.PNG">
 </p>
+
+## Test Transaction
 
 To test a transaction between node can be done as follows
 
