@@ -25,9 +25,9 @@ To connect MyCrypto to the testnet can be done using below configuration
 To test a transaction between node can be done as follows
 
 <p align="center">
-  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_1.PNG">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_01.PNG">
 </p>
 
 <p align="center">
-  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_2.PNG">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_02.PNG">
 </p>
