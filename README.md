@@ -16,8 +16,18 @@ To run the testnet use following commands in two separate terminal windows
 
     > ./geth --datadir node2 --unlock "0x095C5066fbf9DCed6Bd58d1B5Fe2133CE3A43025" --mine --port 30304 --bootnodes "enode://92d656d93d82c9c03fde098f53477eca6112f01c0ee97dfb940110078d95be10e03b8663df69415f4b02b670867ee392324b28a98c8e1951c9953f4a8350964a@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
-To connect MyCrypto to the testnet use following instructions
+To connect MyCrypto to the testnet can be done using below configuration
 
 <p align="center">
   <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/MyCryptoConfig.PNG">
+</p>
+
+To test a transaction between node can be done as follows
+
+<p align="center">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_1.PNG">
+</p>
+
+<p align="center">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Transaction_step_2.PNG">
 </p>
