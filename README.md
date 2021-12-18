@@ -2,7 +2,7 @@
 
 zblock is a private testnet developed for ZBank to explore potentials of blockchain technology. This tesnet allow for offline development while no real money involved which enabling the freedom to experiment.
 
-To setup this testnet, following tools has been used. Stable release of the tools can be downloaded [here](https://geth.ethereum.org/downloads/) or else this repo has everything setup so you don't need to download and setup
+To setup this testnet, following tools has been used. Stable release of the tools can be downloaded [here](https://geth.ethereum.org/downloads/) or else this repo has everything setup so you don't need to download and setup.
 
     1. Puppeth to generate gensis block
 
@@ -18,4 +18,6 @@ To run the testnet use following commands in two separate terminal windows
 
 To connect MyCrypto to the testnet use following instructions
 
-![](https://github.com/chirathlv/zblock/blob/main/Screenshots/MyCryptoConfig.PNG)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/chirathlv/zblock/blob/main/Screenshots/MyCryptoConfig.PNG">
+</p>
