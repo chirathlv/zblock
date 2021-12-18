@@ -19,5 +19,5 @@ To run the testnet use following commands in two separate terminal windows
 To connect MyCrypto to the testnet use following instructions
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/chirathlv/zblock/blob/main/Screenshots/MyCryptoConfig.PNG">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/MyCryptoConfig.PNG">
 </p>
