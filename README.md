@@ -4,7 +4,7 @@ zblock is a private testnet developed for ZBank to explore potentials of blockch
 
 ## Setup the zblock
 
-To setup this testnet, following tools has been used. Stable release of the tools can be downloaded [here](https://geth.ethereum.org/downloads/) or else this repo has everything setup so you don't need to download and setup.
+To setup this testnet, following tools has been used. Stable release of the tools can be downloaded [here](https://geth.ethereum.org/downloads/) or else this repo has everything setup so no need to download and setup.
 
 ### Geth & Tools 1.9.7 to create keys, initialize nodes and connect the nodes together
 
