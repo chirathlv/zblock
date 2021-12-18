@@ -33,22 +33,18 @@ To setup this testnet, following tools has been used. Stable release of the tool
 
 To run the testnet use following commands in two separate terminal windows.
 
-    > ./geth --datadir node1 --unlock "0x03ED163520395A3AcbD503cBd932aF5BF6Da7a71" --mine --rpc --allow-insecure-unlock
+- [x] --datadir ==> Data directory for the chaindata and keystore
+- [x] --unlock ==> Account to unclock (can be comma separated list of account)
+- [x] --mine ==> Enable mining
+- [x] --rpc ==> Starts rpc interface and this is required to connect with the client (MyCrypto or Metamask)
+- [x] --allow-insecure-unlock ==> Allow insecure account unlocking when account related RPCs are exposed by HTTP
+- [x] --port ==> Network listening port (used 30304)
+- [x] --bootnodes ==> enode URL for P2P discovery (Node2 to connect with Node1)
+- [x] --ipcdisable ==> Disable the IPC-RPC server
 
-    > ./geth --datadir node2 --unlock "0x095C5066fbf9DCed6Bd58d1B5Fe2133CE3A43025" --mine --port 30304 --bootnodes "enode://92d656d93d82c9c03fde098f53477eca6112f01c0ee97dfb940110078d95be10e03b8663df69415f4b02b670867ee392324b28a98c8e1951c9953f4a8350964a@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+  > ./geth --datadir node1 --unlock "0x03ED163520395A3AcbD503cBd932aF5BF6Da7a71" --mine --rpc --allow-insecure-unlock
 
-Explanation of the flags being used in previous commands
-
-```
---datadir ==> Data directory for the chaindata and keystore
---unlock ==>  Account to unclock (can be comma separated list of account)
---mine ==> Enable mining
---rpc ==> Starts rpc interface and this is required to connect with the client (MyCrypto or Metamask)
---allow-insecure-unlock ==> Allow insecure account unlocking when account related RPCs are exposed by HTTP
---port ==> Network listening port (used 30304)
---bootnodes ==> enode URL for P2P discovery (Node2 to connect with Node1)
---ipcdisable ==> Disable the IPC-RPC server
-```
+  > ./geth --datadir node2 --unlock "0x095C5066fbf9DCed6Bd58d1B5Fe2133CE3A43025" --mine --port 30304 --bootnodes "enode://92d656d93d82c9c03fde098f53477eca6112f01c0ee97dfb940110078d95be10e03b8663df69415f4b02b670867ee392324b28a98c8e1951c9953f4a8350964a@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
 ## MyCrypto Setup
 
