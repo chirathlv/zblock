@@ -7,9 +7,16 @@ zblock is a private testnet developed for ZBank to explore potentials of blockch
 To setup this testnet, following tools has been used. Stable release of the tools can be downloaded [here](https://geth.ethereum.org/downloads/) or else this repo has everything setup so you don't need to download and setup.
 
 - [x] Puppeth to generate gensis block
-
+<p align="center">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/puppeth_config.PNG">
+</p>
 - [x] Geth & Tools 1.9.7 to create keys, initialize nodes and connect the nodes together
-
+<p align="center">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Node_Config.PNG">
+</p>
+<p align="center">
+  <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Node_Initialization.PNG">
+</p>
 - [x] The Clique Proof of Authority Algorithm
 
 ## Run the zblock
