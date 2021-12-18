@@ -8,6 +8,10 @@ To setup this testnet, following tools has been used. Stable release of the tool
 
 ### Geth & Tools 1.9.7 to create keys, initialize nodes and connect the nodes together
 
+- [x] Public Address of the Node1 => 0x03ED163520395A3AcbD503cBd932aF5BF6Da7a71
+- [x] Public Address of the Node2 => 0x095C5066fbf9DCed6Bd58d1B5Fe2133CE3A43025
+- [x] Same password for both Nodes => 1234
+
 <p align="center">
   <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/Node_Config.PNG">
 </p>
@@ -17,7 +21,10 @@ To setup this testnet, following tools has been used. Stable release of the tool
 
 ### Puppeth to generate gensis block
 
-- [x] The Clique Proof of Authority Algorithm
+- [x] Consensus Algorithm => The Clique Proof of Authority Algorithm
+- [x] Blocktime => 15 seconds
+- [x] Chain ID => 333
+
 <p align="center">
   <img src="https://github.com/chirathlv/zblock/blob/main/Screenshots/puppeth_config.PNG">
 </p>
