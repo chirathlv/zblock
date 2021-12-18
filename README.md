@@ -31,7 +31,7 @@ To setup this testnet, following tools has been used. Stable release of the tool
 
 ## Run the zblock
 
-To run the testnet use following commands in two separate terminal windows.
+To run the testnet use following commands in two separate terminal windows. This will connect the nodes together.
 
 - [x] --datadir ==> Data directory for the chaindata and keystore
 - [x] --unlock ==> Account to unclock (can be comma separated list of account)
