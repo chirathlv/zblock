@@ -36,13 +36,13 @@ To run the testnet use following commands in two separate terminal windows. This
 | Flag                      | Description                                                                                 |
 | ------------------------- | ------------------------------------------------------------------------------------------- |
 | `--datadir`               | Data directory for the chaindata and keystore                                               |
-| `--unlock                 | Account to unclock (can be comma separated list of account)                                 |
-| `--mine                   | Enable mining                                                                               |
-| `--rpc                    | Starts rpc interface and this is required to connect with the client (MyCrypto or Metamask) |
+| `--unlock`                | Account to unclock (can be comma separated list of account)                                 |
+| `--mine`                  | Enable mining                                                                               |
+| `--rpc`                   | Starts rpc interface and this is required to connect with the client (MyCrypto or Metamask) |
 | `--allow-insecure-unlock` | Allow insecure account unlocking when account related RPCs are exposed by HTTP              |
-| `--port                   | Network listening port (used 30304)                                                         |
-| `--bootnodes              | enode URL for P2P discovery (Node2 to connect with Node1)                                   |
-| `--ipcdisable             | Disable the IPC-RPC server                                                                  |
+| `--port`                  | Network listening port (used 30304)                                                         |
+| `--bootnodes`             | enode URL for P2P discovery (Node2 to connect with Node1)                                   |
+| `--ipcdisable`            | Disable the IPC-RPC server                                                                  |
 
 #### Terminal 1
 
